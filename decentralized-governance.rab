@@ -1,0 +1,192 @@
+= Decentralized Governance
+
+% : subtitle
+%    Part 1
+: author
+   Giovanni Sakti
+: institution
+   Starqle
+% : content-source
+%    id_ruby
+% : date
+%    2017-11-01
+: theme
+   starqle
+
+= Background
+
+(('tag:center'))We know that in our industry, things are moving very fast.
+
+== properties
+  : hide-title
+    true
+
+= Background
+
+(('tag:center'))New technology coming out almost every year, sometimes making previous technology "obsolete".
+
+== properties
+  : hide-title
+    true
+
+= Background
+
+(('tag:center'))There are also ((*countless way*)) to do things, each optimized for specific number of cases.
+
+== properties
+  : hide-title
+    true
+
+= Background
+
+(('tag:center'))How to manage everything if things are like that?
+
+== properties
+  : hide-title
+    true
+
+= Background
+
+(('tag:center'))Rather than enforce everything, we should embrace ((*decentralization*)) instead.
+
+== properties
+  : hide-title
+    true
+
+= Decentralized Governance
+
+(('tag:center'))We trust the engineering team that they will choose the best tool for the job.
+
+= Decentralized Governance
+
+In order to:
+* ((*Avoid software monoculture*)) that will hinder the ability to delivery high quality software
+* Maintain ((*high velocity*)) because every team has the ability to make more decision by themselves
+
+= Standards, Not Specifics
+
+(('tag:center'))The next question is: should we leave everything on the hand of each teams?
+
+== properties
+  : hide-title
+    true
+
+= Standards, Not Specifics
+
+(('tag:center'))There should still be ((*standards*)) that govern critical things to ensure high quality software.
+
+== properties
+  : hide-title
+    true
+
+= Standards, Not Specifics
+
+Examples of good standards to implement:
+* All code should be run through a linter before merge
+* All teams should peer-review code before push
+
+= Standards, Not Specifics
+
+(('tag:center'))You may notice that with those standards in-place, each teams still have ((*room for specifics*)).
+
+= Standards, Not Specifics
+
+(('tag:center'))Another good standard that can be implemented is to use Docker for deployment.
+
+= Standards, Not Specifics
+
+(('tag:center'))Therefore each teams must provide Dockerfile in each of their project..
+
+= Standards, Not Specifics
+
+(('tag:center'))..ensuring that the CI/CD and deployment process will be uniform across all teams.
+
+= You Build It, You Own It
+
+(('tag:center'))Ownership of the products can also be governed.
+
+== properties
+  : hide-title
+    true
+
+= You Build It, You Own It
+
+(('tag:center'))The old way to deploy your product as a developer is to handover your codes to operation engineer and let them deploy and monitor it.
+
+== properties
+  : hide-title
+    true
+
+= You Build It, You Own It
+
+(('tag:center'))This is not efficient because the people who write the code and the people who manage the code in production are ((*different*)).
+
+== properties
+  : hide-title
+    true
+
+= You Build It, You Own It
+
+(('tag:center'))It introduce one extra (unnecessary) step.
+
+== properties
+  : hide-title
+    true
+
+= You Build It, You Own It
+
+(('tag:center'))If we are to decentralize the responsibility to each team, then it's better to also make them responsible for ((*deployment and monitoring*)).
+
+= You Build It, You Own It
+
+(('tag:center'))It will gives them more ((*visibility and control*)) regarding their software in production.
+
+= You Build It, You Own It
+
+(('tag:center'))It also make sure that each teams are ((*never blocked*)) from releasing to production.
+
+= You Build It, You Own It
+
+(('tag:center'))When devs are also responsible for deployment and monitoring, they will focus on the ((*quality*)) more..
+
+= You Build It, You Own It
+
+(('tag:center'))..because being woken up at 3am due to a bug or other problem is a powerful incentive.
+
+= Consumer-driven Contract
+
+(('tag:center'))To ensure that teams work nicely with each other, they can embrace ((*consumer-driven contract*))
+
+== properties
+  : hide-title
+    true
+
+= Consumer-driven Contract
+
+(('tag:center'))With microservices, services have dependency with each others.
+
+= Consumer-driven Contract
+
+(('tag:center'))We can enforce teams to build services ((*according to contracts*)) given by their service consumers.
+
+= Consumer-driven Contract
+
+(('tag:center'))We can also enforce a stricter ((*contract-first*)) approach to ensure YAGNI principle is fulfilled.
+
+= Tolerant Reader
+
+(('tag:center'))On the other side, consumer must also be tolerant when consuming service.
+
+= Tolerant Reader
+
+* Only take elements you need
+* Ignore anything you don't need
+* Make minimum assumptions about the structure of the response
+
+= Thanks
+
+(('tag:center'))Thanks!
+
+== properties
+  : hide-title
+    true
