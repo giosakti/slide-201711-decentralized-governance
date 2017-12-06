@@ -15,7 +15,7 @@
 
 = Background
 
-(('tag:center'))We know that in our industry, things are moving very fast.
+(('tag:center'))We know that in our industry, things are moving very ((*fast*)).
 
 == properties
   : hide-title
@@ -55,13 +55,13 @@
 
 = Decentralized Governance
 
-(('tag:center'))We trust the engineering team that they will choose the best tool for the job.
+(('tag:center'))We ((*trust*)) the engineering team that they will choose the best tool for the job.
 
 = Decentralized Governance
 
 In order to:
 * ((*Avoid software monoculture*)) that will hinder the ability to delivery high quality software
-* Maintain ((*high velocity*)) because every team has the ability to make more decision by themselves
+* Maintain ((*high velocity*)) because every team has the ability to make ((*more decision*)) by themselves
 
 = Standards, Not Specifics
 
@@ -82,8 +82,8 @@ In order to:
 = Standards, Not Specifics
 
 Examples of good standards to implement:
-* All code should be run through a linter before merge
-* All teams should peer-review code before push
+* All code should be run through a ((*linter*)) before merge
+* All teams should ((*peer-review*)) code before push
 
 = Standards, Not Specifics
 
@@ -111,7 +111,7 @@ Examples of good standards to implement:
 
 = You Build It, You Own It
 
-(('tag:center'))The old way to deploy your product as a developer is to handover your codes to operation engineer and let them deploy and monitor it.
+(('tag:center'))The ((*old way*)) to deploy your product as a developer is to ((*handover your codes*)) to operation engineer and let them deploy and monitor it.
 
 == properties
   : hide-title
@@ -179,9 +179,31 @@ Examples of good standards to implement:
 
 = Tolerant Reader
 
-* Only take elements you need
-* Ignore anything you don't need
-* Make minimum assumptions about the structure of the response
+* Only ((*take*)) elements you ((*need*))
+* ((*Ignore*)) anything you ((*don't need*))
+* Make ((*minimum assumptions*)) about the structure of the response
+
+= Summary
+
+(('tag:center'))Summary
+
+== properties
+  : hide-title
+    true
+
+= Summary
+
+* Gives engineers more room to make ((*decision*))
+* But define ((*standards*)) (not specifics)
+
+= Summary
+
+* Engineers are product owner, they responsible for the ((*entire lifecycle*)) of what they built
+
+= Summary
+
+* Agree on a ((*contract*)) with consumers of your service
+* But be ((*tolerant*)) when you consume another service
 
 = Thanks
 
